@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+}
+
+.colored {
+    background-color: #e9ecef;
+}
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+.footer {
+    background-color: #e9ecef;
+}
