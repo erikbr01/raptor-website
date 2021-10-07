@@ -2,6 +2,34 @@ body {
     text-align: center;
 }
 
+.btn {
+    text-decoration: none;
+}
+
+a:link, a:visited,  a:hover, a:active
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+
+a {
+    color: white;
+    text-decoration-color: white;
+}
+
+.navbar {
+    padding: 25px 10pxpx 25px;
+}
+
+.big-title {
+    text-align: center;
+}
+
+.btn-link {
+    color: black;
+}
+
 .colored {
     background-color: #e9ecef;
 }
