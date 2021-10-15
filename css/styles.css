@@ -15,10 +15,12 @@ body {
 
 .navbar {
     padding: 25px 25px;
+    transition: 1s;
 }
 
 .big-title {
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .colored {
@@ -43,11 +45,7 @@ body {
     text-align: center;
 }
 
-/* Div with graphics */
 
-.graphics-container {
-    padding: 35px 0px 0px;
-}
 /* Images */
 
 .portrait {
@@ -58,11 +56,25 @@ body {
 
 .team-shot {
     width: 100%;
+    padding-top: 20px;
+}
+
+.portrait {
+    width: 200px;
+    height: 200px;
 }
 
 /* Image div */
 
-.team-show {
-    font-size: 1.25rem;
+.team-portraits p {
+     font-size: 1.2rem; 
 }
 
+.graphics-container img {
+    width: 200px;
+    padding: 15px;
+}
+
+.graphics-container p {
+    font-size: 1.2rem;
+}
