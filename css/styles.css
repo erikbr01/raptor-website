@@ -21,7 +21,15 @@ body {
 .big-title {
     text-align: center;
     padding-bottom: 10px;
+    color: white;
 }
+
+.big-title-bk {
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
 
 .colored {
     background-color: #e9ecef;
@@ -78,3 +86,18 @@ body {
 .graphics-container p {
     font-size: 1.2rem;
 }
+
+
+
+.page-holder {
+    height: 600px;
+    background: url('../images/raptor.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+.bg-cover {
+    background-size: auto !important;
+  }
