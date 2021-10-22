@@ -24,6 +24,15 @@ body {
     color: white;
 }
 
+.vertical-push {
+    position: absolute;
+    top: 450px;
+}
+
+.hero-title {
+    font-size: 4rem;
+}
+
 .big-title-bk {
     text-align: center;
     padding-bottom: 10px;
@@ -90,11 +99,13 @@ body {
 
 
 .page-holder {
-    height: 600px;
+    height: 900px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  position: auto;
+  top: 0;
   }
 
 .bg-cover {
