@@ -26,8 +26,9 @@ body {
 }
 
 .vertical-push {
-    padding-top: 300px;
+    padding-top: 250px;
     padding-bottom: 270px;
+    height: 1000px;
 }
 
 .hero-title {
@@ -104,12 +105,11 @@ body {
 }
 
 .page-holder {
-    height: 900px;
-    background-size: cover;
+    min-height: auto;
     position: auto;
     top: 0;
 }
 
 .bg-cover {
-    background-size: auto !important;
+    background-size: cover !important;
 }
