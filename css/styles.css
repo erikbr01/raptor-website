@@ -22,11 +22,12 @@ body {
     text-align: center;
     padding-bottom: 10px;
     color: white;
+    font-size: 1.25rem;
 }
 
 .vertical-push {
-    position: absolute;
-    top: 450px;
+    padding-top: 300px;
+    padding-bottom: 270px;
 }
 
 .hero-title {
@@ -45,13 +46,22 @@ body {
 }
 
 .container-fluid {
-    padding: 60px 50px;
+    padding: 60px 0px 50px 0px;
 }
+
+.white-text {
+    color: white;
+}
+/* 
+.img-follower {
+    margin-top: 200px;
+} */
 
 /* Footer */
 
 .footer {
     background-color: #e9ecef;
+    padding-top: 20px;
 }
 
 .bg-white {
@@ -84,7 +94,7 @@ body {
 /* Image div */
 
 .team-portraits p {
-     font-size: 1.2rem; 
+    font-size: 1.2rem;
 }
 
 .graphics-container img {
@@ -96,18 +106,13 @@ body {
     font-size: 1.2rem;
 }
 
-
-
 .page-holder {
     height: 900px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  position: auto;
-  top: 0;
-  }
+    background-size: cover;
+    position: auto;
+    top: 0;
+}
 
 .bg-cover {
     background-size: auto !important;
-  }
+}
