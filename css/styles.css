@@ -32,7 +32,7 @@ body {
 }
 
 .hero-title {
-    font-size: 4rem;
+    font-size: 6rem;
 }
 
 .big-title-bk {
@@ -114,11 +114,15 @@ body {
     background-size: cover !important;
 }
 
+.hero-img {
+    width: 100vw;
+}
+
+/* Wrappers for responsive iframes */
+
 .wise-iframe-wrapper {
     position: relative;
-    /* padding-bottom: 56.10%; */
     padding: 30px 30px 56.10% 30px;
-    /* height: 0; */
     overflow: hidden;
 }
  
