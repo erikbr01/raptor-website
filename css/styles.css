@@ -116,6 +116,7 @@ body {
 
 .hero-img {
     width: 100vw;
+    max-height: 93vh;
 }
 
 /* Wrappers for responsive iframes */
@@ -125,7 +126,7 @@ body {
     padding: 30px 30px 56.10% 30px;
     overflow: hidden;
 }
- 
+
 .wise-iframe-wrapper iframe,
 .wise-iframe-wrapper object,
 .wise-iframe-wrapper embed {
