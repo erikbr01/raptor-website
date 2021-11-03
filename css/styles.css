@@ -41,7 +41,6 @@ body {
 
 }
 
-
 .colored {
     background-color: #e9ecef;
 }
@@ -117,6 +116,7 @@ body {
 .hero-img {
     width: 100vw;
     max-height: 93vh;
+    max-width: 100vw;
 }
 
 /* Wrappers for responsive iframes */
