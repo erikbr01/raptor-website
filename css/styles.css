@@ -22,6 +22,8 @@ body {
     text-align: center;
     padding-bottom: 10px;
     font-size: 1.25rem;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .vertical-push {
@@ -149,10 +151,32 @@ body {
 }
 
 
-.hero-partner {
-    width: 40%;
+@media only screen and (min-width: 450px) {
+    .hero-partner {
+        width: 40%;
+    }
+
+    .gold-partner {
+        width: 15%;
+    }
 }
 
-.gold-partner {
-    width: 15%;
+@media only screen and (max-width: 768px) {
+    .hero-partner {
+        width: 60%;
+    }
+
+    .gold-partner {
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .hero-partner {
+        width: 90%;
+    }
+
+    .gold-partner {
+        width: 40%;
+    }
 }
