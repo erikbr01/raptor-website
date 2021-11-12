@@ -63,3 +63,20 @@ ul.timeline>li:before {
         text-align: right;
     }
 }
+
+.wise-iframe-wrapper-timeline {
+    position: relative;
+    padding: 30px 30px 56.10% 30px;
+    overflow: hidden;
+}
+
+.wise-iframe-wrapper-timeline iframe,
+.wise-iframe-wrapper-timeline object,
+.wise-iframe-wrapper-timeline embed {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+}

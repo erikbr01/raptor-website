@@ -3,7 +3,6 @@ var originalIsWhite = false;
 
 
 $(document).ready(function () {
-
     let classes = $('.navbar')[0].className.split(' ')
     let changeTheme = classes.includes('navbar-dark');
     originalIsWhite = changeTheme;
@@ -31,12 +30,8 @@ $(document).ready(function () {
 
 var navbarIsExpanded = false;
 
-
 function onNavbarExpansion() {
-
     let classes = $('.navbar')[0].className.split(' ');
-
-    console.log(classes);
     if (!navbarIsExpanded) {
         $(".navbar").addClass("bg-white");
         if (originalIsWhite) {
