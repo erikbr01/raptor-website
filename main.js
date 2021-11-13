@@ -1,6 +1,6 @@
 let scrollBorder = 200;
 var originalIsWhite = false;
-
+var navbarIsExpanded = false;
 
 $(document).ready(function () {
     let classes = $('.navbar')[0].className.split(' ')
@@ -8,27 +8,27 @@ $(document).ready(function () {
     originalIsWhite = changeTheme;
 
     $(window).scroll(function () {
-        var scroll = $(window).scrollTop();
-        if (scroll >= scrollBorder) {
-            $(".navbar").addClass("bg-white");
+        if (!navbarIsExpanded) {
+            var scroll = $(window).scrollTop();
+            if (scroll >= scrollBorder) {
+                $(".navbar").addClass("bg-white");
 
-            if (changeTheme) {
-                $(".navbar").addClass("navbar-light");
-                $(".navbar").removeClass("navbar-dark");
-
-            }
-        } else {
-            $(".navbar").removeClass("bg-white");
-            if (changeTheme) {
-                $(".navbar").removeClass("navbar-light");
-                $(".navbar").addClass("navbar-dark");
-
+                if (changeTheme) {
+                    $(".navbar").addClass("navbar-light");
+                    $(".navbar").removeClass("navbar-dark");
+                }
+            } else {
+                $(".navbar").removeClass("bg-white");
+                if (changeTheme) {
+                    $(".navbar").removeClass("navbar-light");
+                    $(".navbar").addClass("navbar-dark");
+                }
             }
         }
     });
 });
 
-var navbarIsExpanded = false;
+
 
 function onNavbarExpansion() {
     let classes = $('.navbar')[0].className.split(' ');
