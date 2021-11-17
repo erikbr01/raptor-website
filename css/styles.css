@@ -18,6 +18,10 @@ body {
     transition: 1s;
 }
 
+.navbar-brand {
+    font-size: 1.35rem;
+}
+
 
 
 .big-title {
