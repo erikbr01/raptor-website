@@ -157,32 +157,48 @@ body {
 }
 
 
+.gold-partner-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.gold-partner-wrapper>img {
+    object-fit: contain;
+}
+
+/* Large screens */
 @media only screen and (min-width: 450px) {
     .hero-partner {
-        width: 40%;
+        width: 55%;
     }
 
-    .gold-partner {
-        width: 15%;
+    /* Since the logos are already in col-6 size, we don't need to scale them down as much */
+    .gold-partner-wrapper>img {
+        width: 50%;
     }
 }
 
+/* Medium screens */
 @media only screen and (max-width: 768px) {
     .hero-partner {
-        width: 60%;
+        width: 85%;
     }
 
-    .gold-partner {
-        width: 35%;
+    .gold-partner-wrapper>img {
+        width: 40%;
+
     }
 }
 
+/* Small screens */
 @media only screen and (max-width: 450px) {
     .hero-partner {
-        width: 90%;
+        width: 100%;
     }
 
-    .gold-partner {
-        width: 40%;
+    .gold-partner-wrapper>img {
+        width: 60%;
     }
 }
