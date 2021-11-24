@@ -36,6 +36,10 @@ body {
     background-color: rgb(255, 255, 116);
 }
 
+.bg-white {
+    background-color: white;
+}
+
 
 .jumbotron h1 {
     font-weight: 500;
@@ -154,6 +158,10 @@ body {
 }
 
 /* Image div */
+
+.team-portraits {
+    padding-top: 40px;
+}
 
 .team-portraits p {
     font-size: 1.2rem;
