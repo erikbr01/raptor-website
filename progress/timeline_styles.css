@@ -31,11 +31,11 @@ ul.timeline>li {
 
 ul.timeline>li:before {
     content: ' ';
-    background: black;
+    background: rgb(187, 74, 240);
     display: inline-block;
     position: absolute;
     border-radius: 70%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     left: -10px;
     width: 20px;
     height: 20px;
@@ -79,4 +79,8 @@ ul.timeline>li:before {
     transform: translate(-50%, -50%);
     width: 80%;
     height: 80%;
+}
+
+.progress-title {
+    font-size: 2.5rem;
 }
