@@ -4,16 +4,54 @@ body {
     color: white;
 }
 
+.accent-purple {
+    color: rgb(187, 74, 240);
+}
+
+.accent-blue {
+    color: rgb(101, 200, 233);
+}
+
+.accent-green {
+    color: rgb(101, 226, 101);
+}
+
+.accent-yellow {
+    color: rgb(255, 255, 116);
+}
+
+.bg-purple {
+    background-color: rgb(187, 74, 240);
+}
+
+.bg-blue {
+    background-color: rgb(101, 200, 233);
+}
+
+.bg-green {
+    background-color: rgb(101, 226, 101);
+}
+
+.bg-yellow {
+    background-color: rgb(255, 255, 116);
+}
+
+
 .jumbotron h1 {
     font-weight: 500;
     font-size: 3.5rem;
 }
 
-.btn a {
-    color: white;
-    text-decoration: none;
+.btn {
+    margin-top: 25px;
+    border-radius: 17.5px;
+    padding: 10px 20px 10px;
 }
 
+.btn a {
+    color: white;
+    text-decoration: none
+}
 
 .navbar {
     padding: 25px 25px;
@@ -33,19 +71,17 @@ body {
 }
 
 .hero-title-wrapper {
-    height: 1000px;
+    height: 1250px;
     padding: 50px 20px 200px;
 }
 
 .vertical-push {
     position: absolute;
-    top: 50%;
+    top: 0%;
     left: 50%;
-    transform: translate(-50%, 20%);
-    padding-top: auto;
-    padding-bottom: 150px;
+    transform: translate(-50%, 75vh);
     transform: translate();
-    height: 1000px;
+
 }
 
 
@@ -74,7 +110,7 @@ body {
 }
 
 .container-fluid {
-    padding: 60px 40px 50px;
+    padding: 100px 40px 100px;
 }
 
 .bg-black {
