@@ -47,6 +47,7 @@ function onNavbarExpansion() {
     if (!navbarIsExpanded) {
         $(".navbar").addClass("bg-white");
         $(".navbar").removeClass("navbar-dark");
+        $(".active").removeClass("nav-item-highlight");
         $(".navbar").addClass("navbar-light");
         // if (originalIsWhite) {
         //     $(".navbar").addClass("navbar-light");
@@ -58,11 +59,13 @@ function onNavbarExpansion() {
         $(".navbar").removeClass("bg-black");
         $(".navbar").removeClass("navbar-light");
         $(".navbar").addClass("navbar-dark");
+        $(".active").addClass("nav-item-highlight");
     } else {
         $(".navbar").removeClass("bg-white");
         $(".navbar").removeClass("navbar-light");
         $(".navbar").addClass("navbar-dark");
         $(".navbar").addClass("bg-black");
+        $(".active").addClass("nav-item-highlight");
         // if (originalIsWhite) {
         //     $(".navbar").addClass("navbar-dark");
         //     $(".navbar").removeClass("navbar-light");
