@@ -92,6 +92,7 @@ body {
 .hero-title-wrapper {
     height: 1250px;
     padding: 50px 20px 200px;
+    margin-bottom: 50px;
 }
 
 .vertical-push {
@@ -99,8 +100,6 @@ body {
     top: 0%;
     left: 50%;
     transform: translate(-50%, 75vh);
-    transform: translate();
-
 }
 
 
