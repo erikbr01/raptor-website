@@ -226,21 +226,28 @@ body {
 }
 
 
-.gold-partner-wrapper {
+.partner-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 40px;
+    padding-bottom: 35px;
 }
 
-.gold-partner-wrapper>img {
+.partner-wrapper>img {
     object-fit: contain;
 }
+
 
 /* Large screens */
 @media only screen and (min-width: 450px) {
     .hero-partner {
         width: 55%;
+    }
+
+
+    .platin-partner-wrapper>img {
+        width: 40%;
     }
 
     /* Since the logos are already in col-6 size, we don't need to scale them down as much */
@@ -255,6 +262,10 @@ body {
         width: 85%;
     }
 
+    .platin-partner-wrapper>img {
+        width: 60%;
+    }
+
     .gold-partner-wrapper>img {
         width: 40%;
 
@@ -265,6 +276,10 @@ body {
 @media only screen and (max-width: 450px) {
     .hero-partner {
         width: 100%;
+    }
+
+    .platin-partner-wrapper>img {
+        width: 60%;
     }
 
     .gold-partner-wrapper>img {
