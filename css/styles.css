@@ -230,7 +230,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 40px;
+    padding-top: 15px;
     padding-bottom: 35px;
 }
 
@@ -247,7 +247,7 @@ body {
 
     /* Platin partners */
     .platin-partner-wrapper>img {
-        width: 40%;
+        width: 30%;
     }
 
     /* Since the logos are already in col-6 size, we don't need to scale them down as much */
