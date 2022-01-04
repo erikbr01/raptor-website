@@ -95,12 +95,31 @@ body {
     margin-bottom: 50px;
 }
 
+@media only screen and (max-height: 650px) {
+    .vertical-push {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 40%);
+    }
+}
+
+@media only screen and (min-height: 650px) {
+    .vertical-push {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 90%);
+    }
+}
+
+/* 
 .vertical-push {
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, 90%);
-}
+} */
 
 
 
