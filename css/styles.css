@@ -93,6 +93,7 @@ body {
     height: 90vh;
     padding: 50px 20px 200px;
     margin-bottom: 50px;
+    display: inline-block;
 }
 
 @media only screen and (max-height: 650px) {
@@ -100,7 +101,7 @@ body {
         position: relative;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 40%);
+        transform: translate(-50%, -50%);
     }
 }
 
@@ -109,7 +110,7 @@ body {
         position: relative;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 90%);
+        transform: translate(-50%, -50%);
     }
 }
 
